@@ -171,7 +171,8 @@ button{
 /* PROJECT CONTAINER */
 
 .project-content{
-    width: 75%;
+    /* border: 1px solid red; */
+    width: 100%;
     margin: 0 auto;
 }
 
