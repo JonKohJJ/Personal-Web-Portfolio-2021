@@ -70,14 +70,13 @@
 
                 <div class="project-item item-1">
                     <a href="./deskclub.html">
-                        <img class="project-image" src="/images/deskclub/shot_01.png" alt="deskclub">
+                        <img class="project-image" src="./images/deskclub/thumbnail.png" alt="deskclub">
                         <div class="project-overlay">
                             <div class="project-title"><p><b>DeskClub Co-working Space</b></p></div>
                         </div>
                     </a>
                 </div>
                 
-
             </div>
         </div>
     </div>
@@ -154,23 +153,23 @@
                 <p>jonathan.koh75@gmail.com</p>
             </div>
             <div class="contact-form">
-                <form name="contact" method="POST" data-netlify="true">
+                <form id="form" name="contact" method="POST" data-netlify="true">
                     <p>
-                        <input type="text" name="name" placeholder="Your Full Name">
+                        <input type="text" name="name" placeholder="Your Full Name" required>
                     </p>
                     <p>
-                        <input type="email" name="email" placeholder="Your Email"/>   
+                        <input type="email" name="email" placeholder="Your Email" required>   
                     </p>
                     <p>
-                        <input type="text" name="subject" placeholder="Subject"/>
+                        <input type="text" name="subject" placeholder="Subject" required>
                     </p>
                     <p>
-                        <textarea rows="40" name="message" placeholder="Your message here ..."></textarea>
+                        <textarea rows="40" name="message" placeholder="Your message here ..." required></textarea>
                     </p>
                     <div class="recaptcha">
                         <div data-netlify-recaptcha="true"></div>
                     </div>
-                    <button type="submit"><a href="#">Send Message</a></button>
+                    <button type="submit">Send Message</button>
                 </form>
             </div>
         </div>

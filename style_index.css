@@ -170,22 +170,31 @@ button{
 
 /* PROJECT CONTAINER */
 
-.project-content > *{
-    margin-top: 1rem;
+.project-content{
+    width: 75%;
+    margin: 0 auto;
 }
 
 .project-item{
-    max-width: 30rem;
-    margin: 0.5rem auto;
-    border: 0.5px solid rgba(0,0,0,0.2);
-    cursor: pointer;
+    margin: 1rem;
     position: relative;
+    display: block
+}
+ 
+.project-item::before{
+    content: '';
+    display: block;
+    width: 100%;
+    padding-bottom: 56.25%;
+    background: red;
 }
 
 .project-image{
+    position: absolute;
+    top: 0;
+    left: 0;
     width: 100%;
-    height: 12rem;
-    object-fit:cover;
+    height: 100%
 }
 
 .project-overlay{
@@ -310,9 +319,12 @@ form textarea{
 .contact-form button{   
     padding: 1rem 3rem;
     margin-top: 1rem;
-}
-.contact-form a{
     color: white;
+    font-weight: bold;
+}
+
+.contact-form button:hover{   
+    color: black;
 }
 
 
@@ -503,26 +515,15 @@ form textarea{
 
 
 
-
-
     /* PROJECTS */
-
     .project-content{
+        width: 100%;
         display: grid;
         grid-template-columns: repeat(3, 1fr);
-        grid-gap: 2rem;
-    }
-
-    .project-image{
-        width: 100%;
-        height: 17rem;
-        object-fit:cover;
     }
 
 
 
-
-    
     /* SKILLS */
 
     .skill-inner-container{
