@@ -11,7 +11,7 @@
     left: 0;
     bottom: 0;
     right: 0;
-    background-image: url('./images/deskclub/deskclub_thumbnail.png');
+    /* background image found in internal css */
     background-position: center;
     background-repeat: repeat-x;
     object-fit: cover;
@@ -26,6 +26,7 @@
 .header-content{
     background-color: white;
 }
+
 .header-content p:nth-child(2){
     padding: 1rem;
     font-size: 1.25rem;
