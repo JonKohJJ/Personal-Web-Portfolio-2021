@@ -30,7 +30,7 @@ li{
 .project-inner-container,
 .contact-inner-container{
     /* border: 1px solid black; */
-    padding: 2rem 1rem;
+    padding: 5rem 1rem;
     width: 100%;
     margin: 0 auto;
 }
@@ -149,6 +149,7 @@ button{
 
 
 /* HEADER CONTAINER */
+
 .header-content p:last-of-type{
     max-width: 35rem;
     margin: 0 auto;
