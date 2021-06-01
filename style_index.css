@@ -91,7 +91,7 @@ button{
 }
 
 button{
-    border: none;
+    border: 1px solid transparent;
     border-radius: 50px;
     background-color: black;
 }
