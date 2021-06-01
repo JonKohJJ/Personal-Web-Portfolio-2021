@@ -32,6 +32,13 @@
     font-size: 1.25rem;
 }
 
+.header-content p:last-of-type{
+    /* outline: 1px solid black; */
+    max-width: 45rem;
+    font-size: 1.25rem;
+    padding-top: 3rem;
+}
+
 
 .header-content ul{
     padding: 0;
