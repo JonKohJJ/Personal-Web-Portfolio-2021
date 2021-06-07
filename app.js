@@ -48,9 +48,8 @@ gsap.from('.nav-container', {
 gsap.from('.project-header', {
     scrollTrigger: {
         trigger: ".project-header",
-        start: " bottom",
-        markers: true,
-        toggleActions: "restart pause restart none"
+        start: "top 85%",
+        toggleActions: "restart pause none none"
     },
     delay: 1,
     duration: 1,
@@ -62,9 +61,8 @@ gsap.from('.project-header', {
 gsap.from(".project-item", {
     scrollTrigger: {
         trigger: ".project-item",
-        start: " bottom",
-        markers: true,
-        toggleActions: "restart pause restart none"
+        start: "top 85%",
+        toggleActions: "restart pause resume none"
     },
     duration: 1,
     x: 20,
@@ -76,9 +74,8 @@ gsap.from(".project-item", {
 gsap.from(".skill-header", {
     scrollTrigger: {
         trigger: ".skill-header",
-        start: " bottom",
-        markers: true,
-        toggleActions: "restart pause restart none"
+        start: "top 85%",
+        toggleActions: "restart pause none none"
     },
     duration: 1,
     y: -20,
@@ -89,9 +86,8 @@ gsap.from(".skill-header", {
 gsap.from(".skill-about", {
     scrollTrigger: {
         trigger: ".skill-about",
-        start: " bottom",
-        markers: true,
-        toggleActions: "restart pause restart none"
+        start: "top 85%",
+        toggleActions: "restart pause none none"
     },
     duration: 1,
     x: 20,
@@ -101,9 +97,8 @@ gsap.from(".skill-about", {
 gsap.from(".skill", {
     scrollTrigger: {
         trigger: ".skill",
-        start: " bottom",
-        markers: true,
-        toggleActions: "restart pause restart none"
+        start: "top 85%",
+        toggleActions: "restart pause none none"
     },
     duration: 1,
     x: -20,
@@ -113,9 +108,8 @@ gsap.from(".skill", {
 gsap.from(".contact-header", {
     scrollTrigger: {
         trigger: ".contact-header",
-        start: " bottom",
-        markers: true,
-        toggleActions: "restart pause restart none"
+        start: "top 85%",
+        toggleActions: "restart pause none none"
     },
     duration: 1,
     y: -20,
@@ -125,9 +119,8 @@ gsap.from(".contact-header", {
 gsap.from(".contact-form", {
     scrollTrigger: {
         trigger: ".contact-form",
-        start: " bottom",
-        markers: true,
-        toggleActions: "restart pause restart none"
+        start: "top 85%",
+        toggleActions: "restart pause none none"
     },
     duration: 1,
     y: 20,

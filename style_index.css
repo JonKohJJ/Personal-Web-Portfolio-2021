@@ -152,6 +152,10 @@ button{
     transform: none;
 }
 
+.nav-logo a:hover{
+    text-shadow: none;
+}
+
 
 /* HEADER CONTAINER */
 
