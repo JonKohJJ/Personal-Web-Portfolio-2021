@@ -66,7 +66,7 @@ gsap.from(".project-item", {
     },
     duration: 1,
     x: 20,
-    stagger: 0.5,
+    stagger: 0.4,
     opacity: 0
 })
 

@@ -144,6 +144,10 @@ button{
     display: none;
 }
 
+.nav-download-resume a{
+    font-weight: 900;
+}
+
 .nav-burger{
     cursor: pointer;
 }
@@ -152,8 +156,8 @@ button{
     transform: none;
 }
 
-.nav-logo a:hover{
-    text-shadow: none;
+.nav-logo img{
+    width: 3rem;
 }
 
 
@@ -179,7 +183,7 @@ button{
 
 .header-content a{
     color: white;
-    padding: 0 3rem;
+    padding: 0 1rem;
 }
 
 .header-img img:last-of-type{
