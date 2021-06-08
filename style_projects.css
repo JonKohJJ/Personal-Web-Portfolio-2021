@@ -1,4 +1,7 @@
 
+.nav-container{
+    position: sticky;
+}
 
 .header-container{
     height: auto;
@@ -21,7 +24,8 @@
 }
 
 .header-inner-container{
-    max-width: 55rem;
+    width: 90%;
+    margin: 0 auto;
 }
 
 .header-content{
@@ -70,7 +74,7 @@
 }
 
 .header-content{
-    border: 1px solid black;
+    box-shadow: 5px 5px 25px 0px rgba(0, 0, 0, 0.5);
 }
 
 
