@@ -104,7 +104,7 @@ button{
 
 /* NAV CONTAINER */
 .nav-container{
-    position: sticky;
+    position: fixed;
     top: 0;
     width: 100%; 
     border-bottom: 2px solid rgba(0, 0, 0, 0.1);
@@ -285,6 +285,12 @@ button{
     font-size: 1rem;
 }
 
+.skill > div:nth-child(odd) p:first-of-type i{
+    padding: 0 .5rem 0 0;
+}
+
+
+
 .about-img{
     padding: 2rem 0 1rem 0;
 }
@@ -375,7 +381,7 @@ form textarea{
 }
 
 .footer-container ul li{
-    padding: 0 1rem;
+    padding: .5rem .5rem;
 }
 
 .footer-container ul li i{
