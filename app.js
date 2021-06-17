@@ -48,8 +48,8 @@ gsap.from('.nav-container', {
 gsap.from('.project-header', {
     scrollTrigger: {
         trigger: ".project-header",
-        start: "top 85%",
-        toggleActions: "restart pause none none"
+        start: "top 55%",
+        toggleActions: "restart resume none none"
     },
     delay: 1,
     duration: 1,
@@ -57,12 +57,11 @@ gsap.from('.project-header', {
     opacity: 0
 })
 
-
-gsap.from(".project-items", {
+gsap.from('.item', {
     scrollTrigger: {
-        trigger: ".project-items",
-        start: "top 85%",
-        toggleActions: "restart pause resume none"
+        trigger: ".item",
+        start: "top 55%",
+        toggleActions: "restart resume none none"
     },
     duration: 1,
     x: 20,
@@ -71,10 +70,11 @@ gsap.from(".project-items", {
 })
 
 
+
 gsap.from(".skill-header", {
     scrollTrigger: {
         trigger: ".skill-header",
-        start: "top 85%",
+        start: "top 55%",
         toggleActions: "restart pause none none"
     },
     duration: 1,
@@ -86,7 +86,7 @@ gsap.from(".skill-header", {
 gsap.from(".skill-about", {
     scrollTrigger: {
         trigger: ".skill-about",
-        start: "top 85%",
+        start: "top 55%",
         toggleActions: "restart pause none none"
     },
     duration: 1,
@@ -97,7 +97,7 @@ gsap.from(".skill-about", {
 gsap.from(".skill", {
     scrollTrigger: {
         trigger: ".skill",
-        start: "top 85%",
+        start: "top 55%",
         toggleActions: "restart pause none none"
     },
     duration: 1,
@@ -108,7 +108,7 @@ gsap.from(".skill", {
 gsap.from(".contact-header", {
     scrollTrigger: {
         trigger: ".contact-header",
-        start: "top 85%",
+        start: "top 55%",
         toggleActions: "restart pause none none"
     },
     duration: 1,
@@ -119,7 +119,7 @@ gsap.from(".contact-header", {
 gsap.from(".contact-form", {
     scrollTrigger: {
         trigger: ".contact-form",
-        start: "top 85%",
+        start: "top 55%",
         toggleActions: "restart pause none none"
     },
     duration: 1,

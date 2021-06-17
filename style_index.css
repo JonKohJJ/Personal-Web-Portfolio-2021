@@ -108,7 +108,7 @@ button{
     position: fixed;
     top: 0;
     width: 100%; 
-    border-bottom: 2px solid rgba(0, 0, 0, 0.1);
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1), 0 2px 5px rgba(0, 0, 0, 0.1);
     background-color: rgba(255, 255, 255, 0.9);
     z-index: 1;
 }
@@ -185,6 +185,7 @@ button{
 .header-content a{
     color: white;
     padding: 0 1rem;
+    font-weight: 900;
 }
 
 .header-img img:last-of-type{
@@ -195,13 +196,16 @@ button{
 
 
 /* PROJECT CONTAINER */
+.project-inner-container{
+    padding: 0rem;
+}
 
 .project-items{
     padding: 0 1rem;
 }
 
 .item{
-    padding: 1rem 0;
+    padding: 1rem;
 }
 
 .item-top{
@@ -210,7 +214,7 @@ button{
 
 .item img{
     width: 100%;
-    display: inline-block;
+    display: block;
 }
 
 .item-overlay{
@@ -265,6 +269,11 @@ button{
     display: flex;
     justify-content: flex-start;
     align-items: center;
+    padding-bottom: .75rem;
+}
+
+.item-techs ul li{
+    font-weight: bold;
 }
 
 .item-techs ul li:not(:last-of-type){
@@ -353,6 +362,7 @@ button{
 
 .about-content a{
     color: white;
+    font-weight: 900;
 }
 
 /* CONTACT CONTAINER */
@@ -440,7 +450,6 @@ form textarea{
 
 
 
-
 /* MEDIA QUERIES */
 @media (min-width: 1100px){
 
@@ -452,6 +461,10 @@ form textarea{
     .contact-inner-container{
         /* border: 1px solid black; */
         width: 80%;
+    }
+
+    .project-inner-container{
+        width: 90%;
     }
 
     .project-header,
@@ -601,7 +614,7 @@ form textarea{
         width: 100%;
         display: grid;
         grid-template-columns: repeat(3, 1fr);
-        grid-gap: 3rem;
+        grid-gap: 1rem;
     }
 
     /* SKILLS */
@@ -658,9 +671,6 @@ form textarea{
         font-size: 1.25rem;
     }
 
-
-
-
     /* CONTACT */
     .contact-inner-container {
         padding-top: 4rem;
@@ -671,6 +681,15 @@ form textarea{
 
 }
 
+@media (min-width: 600px) and (max-width: 1099px){
+    /* PROJECTS */
+    .project-items{
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 0rem;
+    }
+}
 
 
 
