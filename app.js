@@ -58,9 +58,9 @@ gsap.from('.project-header', {
 })
 
 
-gsap.from(".project-item", {
+gsap.from(".project-items", {
     scrollTrigger: {
-        trigger: ".project-item",
+        trigger: ".project-items",
         start: "top 85%",
         toggleActions: "restart pause resume none"
     },
